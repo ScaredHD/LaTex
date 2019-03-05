@@ -1,0 +1,38 @@
+\documentclass[UTF8]{ctexart}
+
+\usepackage{geometry}
+    \geometry{left=4cm,right=4cm,top=2cm,bottom=2cm}
+\usepackage{amsmath, amssymb, amsthm}
+
+\usepackage{caption} 	 % 标题
+\usepackage{xcolor} 	 % 颜色
+\usepackage{graphicx} 	 % 引用图片
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{framed} 	 % 方框 \begin{framed}
+\usepackage{indentfirst} 	 % 首行缩进 
+    \setlength{\parindent}{0em}
+\usepackage{setspace} 	 % 行间距 \begin{spacing}{arg}
+\usepackage{extarrows} 	 % 箭头宏包 
+\usepackage{esvect} 	 %向量箭头 \vv{}
+\usepackage[version=3]{mhchem} 	 %化学方程式 \ce{}
+\usepackage{siunitx} 	 %国际单位 \si{unit} \SI{number}{unit} 
+
+\newcommand{\mb}{\mathbf}
+\newcommand{\E}{\mathrm e}
+\renewcommand{\I}{\mathrm i}
+\def \DD #1.#2.#3 {\dfrac{d^{#1} #2}{d #3^{#1}}}
+\def \PP #1.#2.#3 {\dfrac{\partial^{#1} #2}{\partial #3^{#1}}}
+\def \dd #1.#2 {\dfrac{d #1}{d #2}}
+\def \pp #1.#2 {\dfrac{\partial #1}{\partial #2}}
+\renewcommand{\span}{\operatorname{span}}
+\newcommand{\rank}{\operatorname{rank}}
+
+\pagestyle{empty}
+
+\begin{document}
+
+
+
+
+\end{document}
